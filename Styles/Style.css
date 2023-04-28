@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.formulario{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: brown;
+    height: 50vh;
+}
+.lottie{
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: azure;
+}
+.info{
+    font-size: xx-large;
+    color: black;
+}
+.name{
+    color: black;
+    background-color: aliceblue;
+}
+.surname{
+    color: rgba(0, 0, 0, 1);
+}
+.boton1{
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+
+}
+.span1{
+    background: #3eff37;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.boton1:hover .span1{
+    width: 100%;
+}
+a{
+    color: #fff;
+}
